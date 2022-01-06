@@ -1,0 +1,254 @@
+.mainSection{
+    width: 650px;
+    border: 1px solid  #C4C4C4  
+}
+
+.heder{
+    width: 100%;
+    height: 60px;
+    display: flex;
+   
+}
+
+.userName{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.backIcon{
+    width: 20px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.userName h1{
+    font-size: 20px;
+}
+
+.userName span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.6;
+}    
+
+.bacgroundFonImg{
+    width: 100%;
+    &::after{
+        content: "";
+        width: 150px;
+        height: 150px;
+        background-image: url(../../Assets/Images/Ellipse.png);
+        position: absolute;
+        z-index: 3;
+        border-radius: 50%;
+        background-size: cover;
+        transform: translate(-420% ,84%);
+
+    }
+}
+
+.bacgroundFonImg img{
+    width: 100%;
+}
+
+.editProfile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.editProfile .edit{
+    width: 120px;
+    height: 44px;
+    left: 1203px;
+    top: 387px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    &:hover{
+        border: 1px solid #111;
+    }
+}
+
+.userProfile{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 20px;
+    h1{
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    span{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        opacity: 0.6;
+    }
+    
+}
+
+.bioTitle{
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 15px;
+
+    span, a{
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+    }
+    a{
+        text-decoration: none;
+        color: #1DA1F2;
+    }
+}
+
+
+.linkList{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    padding: 0 20px;
+
+    span{
+        font-size: 11px;
+        line-height: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        // opacity: 0.6;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1DA1F2;
+    }
+
+    
+    .item1{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        &::before{
+            content: "";
+            // display: flex;
+            width: 17px;
+            height: 17px;
+            margin-right: 3px;
+            background-image: url(../../Assets/Images/location.png);
+            background-size: cover;
+        }
+    }
+    .item2{
+        width: 150px;
+        display: flex;
+        align-items: center;
+       
+        &::before{
+            content: "";
+            // display: flex;
+            width: 17px;
+            height: 17px;
+            margin-right: 3px;
+            background-image: url(../../Assets/Images/link.png);
+            background-size: cover;
+        }
+    }
+    .item3{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        &::before{
+            content: "";
+            // display: flex;
+            width: 17px;
+            height: 17px;
+            margin-right: 3px;
+            background-image: url(../../Assets/Images/balloon.png);
+            background-size: cover;
+        }
+    }
+    .item4{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        &::before{
+            content: "";
+            // display: flex;
+            width: 17px;
+            height: 17px;
+            margin-right: 3px;
+            background-image: url(../../Assets/Images/calendar.png);
+            background-size: cover;
+        }
+    }
+}
+
+.subcriberes{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+    .subcrib,.subcriber{
+        display: flex;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 25px;
+
+        span{
+            color: black;
+            margin-right: 5px;
+        }
+
+        p{
+            opacity: 0.6;
+        }
+    }
+}
+
+.pageList{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+
+   li{
+    transition: all 0.3s ease;
+        border-bottom: 3px solid #fff;
+        padding: 5px;
+
+
+    &:hover{
+        border-bottom: 3px solid #1DA1F2;
+        box-sizing: border-box;
+        }
+   }
+}
+
+
+
+
+
+
+
+
